@@ -61,9 +61,6 @@ The app uses the OpenWeatherMap API. Follow these steps to set up:
 - **react-loader-spinner**: For loading animations
 - **@fortawesome/react-fontawesome**: Icons library
 
-## License
-This project is licensed under the MIT License. Feel free to use and modify it.
-
 ## Contributing
 Contributions are welcome! If you find a bug or want to add a feature, feel free to open an issue or submit a pull request.
 
