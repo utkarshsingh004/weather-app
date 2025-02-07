@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    /* background: #373839; */
+}
+
+body{
+    width: 100%;
+    background-color: #7c8386;
+}
+
+#root{
+    width: 100%;
+}
+
+.container {
+    background: #EDF0F6;
+    background: linear-gradient(354deg, #b3eec7 0%, #26363d 100%);
+    /* padding: 30px 120px; */
+    width: 320px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.container_date {
+    color: white;
+    margin-top: 76px;
+    opacity: 47%;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container_city {
+    margin-top: 1rem;
+    font-size: 37px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.container_degree {
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    position: relative;
+    top: -20px;
+}
+
+.container_img {
+    position: relative;
+    top: -29px;
+}
+
+.degree_icon {
+    font-size: 20px;
+}
+
+.container_para {
+    position: relative;
+    top: -15px;
+    color: rgb(237, 237, 237);
+    font-size: 18px;
+}
+
+.input {
+    border: none;
+    padding: 1rem;
+    border-radius: 0px 0px 0px 15px;
+    background: #bbd8fb;
+    box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff;
+    transition: 0.3s;
+    position: relative;
+    top: -2px;
+}
+
+.input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #e8e8e8, inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+}
+
+
+/* button */
+
+button {
+    width: 40%;
+    margin-top: 2%;
+    color: #090909;
+    padding: 0.7em 0.7em;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset -10px -10px 20px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(145deg, #7aebdd, #5bc4ed);
+    transform: scale(0.98);
+}
+
+button:active {
+    color: #666;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2), inset -10px -10px 20px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    transform: scale(0.98);
+}
+
+.form {
+    margin-top: 4rem;
+}
+
+.errors {
+    color: rgb(243, 157, 157);
+    margin-top: 250px;
+    text-align: center;
+    opacity: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and(max-width:700px) {
+    .container{
+        width: 100%;
+    }
+}
